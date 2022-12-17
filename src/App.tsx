@@ -11,6 +11,7 @@ const App = () => {
             <Route element={<ProtectedRoute>{null}</ProtectedRoute>} path="/" />
           </Routes>
         </Router>
+        <div className=""></div>
       </Contexts>
     </>
   );
